@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "module": "learning",
+  "classification": "required",
+  "execution": "process",
+  "runtime": "go",
+  "placements": [
+    "server"
+  ],
+  "principal_class": 1,
+  "principal_ref": 8,
+  "stages": [
+    {
+      "id": 1,
+      "name": "learning-observation",
+      "event_kind": 6145
+    }
+  ],
+  "source_sha256": "514eb1ffffdac374faca358b378f99c9d162af151df60ddae30957149c311a5f",
+  "owned_files": [
+    "src/modules/learning/module.yaml",
+    "src/modules/learning/learning_bundle.c",
+    "src/modules/learning/learning_evidence.c",
+    "src/modules/learning/learning_implicit.c",
+    "src/modules/learning/learning_router.c",
+    "src/modules/learning/learning_signal_policy.c",
+    "src/modules/learning/module_adapter.c",
+    "src/modules/learning/learning_bundle.h",
+    "src/modules/learning/learning_evidence.h",
+    "src/modules/learning/learning_implicit.h",
+    "src/modules/learning/learning_signal_policy.h",
+    "src/modules/learning/include/aimee/learning/learning.h",
+    "src/modules/learning/include/aimee/learning/module_api.h",
+    "src/tests/test_learning_bundle.c",
+    "src/tests/test_learning_metrics.c",
+    "docs/modules/learning.md",
+    "server-go/modules/learning/learning.go",
+    "server-go/modules/learning/learning_test.go"
+  ]
+}
